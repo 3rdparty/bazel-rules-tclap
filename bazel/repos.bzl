@@ -28,7 +28,7 @@ def repos(external = True, repo_mapping = {}):
             git_repository,
             name = "com_github_3rdparty_bazel_rules_tclap",
             remote = "https://github.com/3rdparty/bazel-rules-tclap",
-            commit = "d1e177b697261c6d59655264d8a7bda0cab576ca",
-            #shallow_since = "1631281455 +0000",
+            commit = "b50d97ab8b55e9a39201e96bdc955d895816a131",
+            shallow_since = "1639397010 +0300",
             repo_mapping = repo_mapping,
         )
