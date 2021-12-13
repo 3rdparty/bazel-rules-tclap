@@ -35,3 +35,9 @@ def deps():
 ```
 
 4. You can then use `@com_github_tclap_tclap//:tclap` in your target's `deps`.
+
+5. Repeat the steps starting at (1) at the desired version of this repository that you want to use:
+
+| tclap | Copy `bazel/repos.bzl` from: |
+| :---: | :--------------------------: |
+| 1.2.1 | [3ef04ec](https://github.com/3rdparty/bazel-rules-tclap/tree/3ef04ec8f8717706a7e783160eecf924ca038695) |
