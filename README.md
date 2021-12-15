@@ -41,3 +41,4 @@ def deps():
 | tclap | Copy `bazel/repos.bzl` from: |
 | :---: | :--------------------------: |
 | 1.2.1 | [3ef04ec](https://github.com/3rdparty/bazel-rules-tclap/tree/3ef04ec8f8717706a7e783160eecf924ca038695) |
+| 1.4.0 - rc1 | [746bc97](https://github.com/3rdparty/bazel-rules-tclap/tree/746bc975e8407fc34f121ef4a66f2c6f14e19404) |
