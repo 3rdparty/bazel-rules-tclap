@@ -10,9 +10,9 @@ def deps(repo_mapping = {}):
     maybe(
         http_archive,
         name = "com_github_tclap_tclap",
-        url = "https://github.com/mirror/tclap/archive/tclap-1-2-1-release-final.tar.gz",
-        sha256 = "f0ede0721dddbb5eba3a47385a6e8681b14f155e1129dd39d1a959411935098f",
-        strip_prefix = "tclap-tclap-1-2-1-release-final",
+        url = "https://sourceforge.net/projects/tclap/files/tclap-1.4.0-rc1.tar.bz2",
+        sha256 = "33e18c7828f76a9e5f2a00afe575156520e383693059ca9bc34ff562927e20c6",
+        strip_prefix = "tclap-1.4.0-rc1",
         repo_mapping = repo_mapping,
         build_file = "@com_github_3rdparty_bazel_rules_tclap//:BUILD.bazel",
     )
